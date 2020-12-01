@@ -1,0 +1,7 @@
+server:
+  port: 8443
+  ssl:
+    key-store: file:keystore.properties
+    key-store-type: PEMCFG.MOD
+    key-store-password: dummy
+    key-alias: keycert
